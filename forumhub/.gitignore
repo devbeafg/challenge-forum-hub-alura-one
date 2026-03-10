@@ -1,0 +1,137 @@
+############################
+# Build
+############################
+out/
+dist/
+tmp/
+HELP.md
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+############################
+# Maven
+############################
+
+.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+############################
+# IDEs
+############################
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+############################
+# Credenciais / Secrets
+############################
+
+.env
+.env.*
+*.env
+application-local.properties
+application-dev.properties
+
+
+
+############################
+# Logs
+############################
+
+logs/
+*.log
+
+
+
+############################
+# Gradle
+############################
+
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+
+
+############################
+# Sistema Operacional
+############################
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+############################
+# Arquivos temporários
+############################
+
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+############################
+# Arquivos compilados
+############################
+
+*.class
+*.jar
+*.war
+*.ear
+
+############################
+# Banco de dados local
+############################
+
+*.db
+*.sqlite
+*.h2.db
+*.mv.db
+
+############################
+# Testes
+############################
+
+coverage/
+*.lcov
+
+############################
+# Docker (opcional)
+############################
+
+docker-compose.override.yml
+
+############################
+# Flyway / migrations temporárias
+############################
+
+flyway.conf
